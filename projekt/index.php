@@ -18,7 +18,7 @@
         include ('pages/about.php');
         break;
 
-    case 'kontakt':
+    case 'contact':
         include ('pages/contact.php');
         break;
 
