@@ -1,0 +1,288 @@
+/********** GENERAL**********/
+
+html {
+  height: 100%;                     /*sticky footer*/
+}
+
+* {
+  box-sizing: border-box;               
+}
+
+body {                                   
+  margin: 0;  
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.logo-icon {
+  height: 70px;
+  width: 70px;
+}
+
+a {                                      
+  color: #000;                           
+  font-size: 0.85em;                     
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 65%;                       /* wrapper width */
+  margin: 0 auto;                   /* auto on left n right to get it centered on page */
+}  
+
+p {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/************* HEADER  ***************/
+
+div#logo-container {                  
+  width: 140px;                     /* div logo container width */
+}
+
+div#logo-container img {            
+  width: 100%;                      /* 100% width on logo inside the div*/
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;    /* space around on a links */
+  padding: 10px;                    /* padding on header */
+  background-color: #FFF;
+}
+
+nav {
+  width: 57%;                       /* width on the nav */
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;    /* space around on a links */
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  font-family: "Raleway", serif;
+  font-weight: bold;
+  color: #000;
+  line-height: 40px; 
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.selected {
+  color: #448aff;
+}
+
+nav a:hover {                          
+  transition: ease-in-out all .4s; 
+    -moz-transition: ease-in-out all .7s;
+    -webkit-transition: ease-in-out all .7s;
+  color:#448aff;
+}
+
+.logoicon {
+  height: 70px;
+  width: 45px;
+}
+
+/************* BANNER PICTURE ***************/
+
+.banner {
+  width: 100%;                      /* 100% width on div */
+  margin-bottom: 60px;
+}
+
+.banner-img {
+  width: 100%;                      /* 100% width on image */
+}
+
+/************* ABOUT ***************/
+.about h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.about p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile-photo {
+  display: block;
+  margin: 50px auto 30px;
+  border-radius: 20%;
+  box-shadow: 8px 8px 10px #aaa;
+  opacity: 0.9;
+}
+
+.hidden {
+  display: none;
+  text-align: center;
+}
+
+i {
+  cursor:pointer;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.jobedu {
+  font-size:1.2em;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.fa-expand {
+  margin-left: 50px;
+  font-weight: bold;
+  color: brown;
+}
+
+
+/************* CONTACT PAGE ***************/
+
+#kontakt {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mailphone  {
+  font-family: 'Raleway';
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.mailphonelogo {
+  height: 45px;
+  width: 45px;
+  margin: 0px 5px -15px -10px;
+}
+
+#kontakt h3 {
+  margin-top: 1.9em;
+  font-size: 1.1em;
+}
+
+.share-icon {
+  width: 13px;
+  height: 13px;
+  margin: 0 5px 3px 0;
+}
+
+/************* COUNTDOWN ***************/
+
+#countdown, #countdown1 {
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+  width: 330px;
+  padding: 5px 0;
+  margin: 5px auto 0;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  color: #000;
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.countdowntext {
+  margin-top: 30px;
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+}
+
+#countposition {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/************* FOOTER ***************/
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 5px 0;
+  clear: both;
+  bottom: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 80px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/************* MEDIA QUERIES ***************/
+
+@media screen and (max-width: 768px) {
+  
+  div#logo-container {              /* center the logo on the page from 768px */
+    margin: 0 auto;                   
+    margin-bottom: 15px;
+  }
+
+  header {
+    flex-direction: column;        /* make the nav display under the logo */
+  }
+
+  nav {                            /* 80% width on nav from 768 px */
+    width: 80%;
+  }
+
+  .banner-img {                    /* banner height from 768px */
+    height: 200px;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column          /* nav goes to column on 480px */
+  }
+  nav a {
+    height: 40px;                   /* a links heights */
+    line-height: 20px;
+  }
+
+  .wrapper {                        /* wrapper 90% from 480px */
+    width: 90%;
+  }
+
+  .banner-img {                     /* banner height from 480px */
+    height: 130px;
+  }
+
+  nav a {
+    border-bottom: none;
+  }
+
+}
