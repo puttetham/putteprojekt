@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
 <?php
    $p = $_GET['page'];
 
@@ -27,5 +21,4 @@
         break; 
    }
 ?>
-</body>
-</html>
+
