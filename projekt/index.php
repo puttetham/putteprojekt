@@ -14,7 +14,7 @@
         include ('pages/home.php');
         break;
 
-    case 'cv':
+    case 'about':
         include ('pages/about.php');
         break;
 
