@@ -24,9 +24,9 @@
     </a>
   </div>
   <nav>
-    <a href="index.html" class="selected">h o m e .</a>
-    <a href="about.html">a b o u t&nbsp;&nbsp; m e .</a>
-    <a href="contact.html">c o n t a c t .</a>
+    <a href="home.php" class="selected">h o m e .</a>
+    <a href="about.php">a b o u t&nbsp;&nbsp; m e .</a>
+    <a href="contact.php">c o n t a c t .</a>
   </nav>
 </header>
 <div class="banner">

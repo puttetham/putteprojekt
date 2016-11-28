@@ -24,9 +24,9 @@
     </a>
   </div>
   <nav>
-    <a href="index.html">h o m e .</a>
-    <a href="about.html">a b o u t&nbsp;&nbsp; m e .</a>
-    <a href="contact.html" class="selected">c o n t a c t .</a>
+    <a href="home.php">h o m e .</a>
+    <a href="about.php" class="selected">a b o u t&nbsp;&nbsp; m e .</a>
+    <a href="contact.php">c o n t a c t .</a>
   </nav>
 </header>
 <div class="banner">
@@ -36,19 +36,33 @@
 <!-- ############### SECTION ############### -->
 
 <div class="wrapper">
-  <section id="kontakt">
-       <h3>GET IN TOUCH!</h3>
-          <p class="mailphone"><a href="mailto:patrikhogler@hotmail.com"><i class="fa fa-envelope mailphonelogo" aria-hidden="true"></i>patrikhogler@hotmail.com</a></p>
-          <p class="mailphone"><a href="tel:076-5576319"><i class="fa fa-phone-square mailphonelogo" aria-hidden="true"></i>+(46)76-557 63 19</a></p>
-          <br>
-          <br>
-          <img src="image/share/multimedia.png" class="share-icon" title="SHARE ME!">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=www.patrikhogler.se"><img src="image/share/facebook.png" class="social-icon" alt="facebook icon"></a>
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.patrikhogler.se&title=Patrik%20Hogler&summary=&source="><img src="image/share/linkedin.png" class="social-icon" alt="linkedin icon"></a>
-          <a href="https://twitter.com/home?status=My%20awesome%20friend!"><img src="image/share/twitter-1.png" class="social-icon" alt="twitter icon"></a>
-          <a href="https://pinterest.com/pin/create/button/?url=http%3A//patrikhogler.se&media=http%3A//patrikhogler.se&description="><img src="image/share/pinterest.png" class="social-icon" alt="pinterest icon"></a>
-          <a href="https://plus.google.com/share?url=http%3A//patrikhogler.se/"><img src="image/share/google-plus.png" class="social-icon" alt="google+ icon"></a>
-
+  <section class="about">
+    <h1>P A T R I K &nbsp;&nbsp;H O G L E R<br><br>
+    I'm a Front End Developer based in Stockholm, Sweden.</h1>
+    <img src="image/test.jpg" class="profile-photo" alt="Photograph of Patrik Hogler">
+    <p>HTML . CSS . JAVASCRIPT <br>
+    And many more diffrent modern techniques.</p>
+  </section>
+  <section>
+    <p class="jobedu">Current education.<i id="0" class="fa fa-expand" aria-hidden="true"></i></p>
+     <div class="hidden">
+        <hr/>
+        <p>School: KYH Stockholm. </p>
+        <p>Website: <a href="http://kyh.se">https://kyh.se</a></p>
+        <p>Program: Front-End Developer.</p>
+        <p>Status: Full Time.</p>
+        <p>Graduation: 2018.</p>
+        <p>Adress: Vanadisvägen 9B, 113 46 Stockholm, Sweden.</p>
+    </div>
+      <p class="jobedu">Current job.<i id="1" class="fa fa-expand" aria-hidden="true"></i></p>
+      <div class="hidden">
+        <hr/>
+        <p>Job: Svea Ekonomi AB.</p>
+        <p>Website: <a href="http://exchange.svea.com">http://exchange.svea.com</a></p>
+        <p>Status: Extra.</p>
+        <p>Position: Sales.</p>
+        <p>Adress: Skärholmen Galleria, Bredholmsgatan 3, 127 48 Skärholmen, Sweden.</p>
+      </div>
   </section>
 </div>
 
@@ -60,5 +74,6 @@
     <a href="https://www.facebook.com/public/Patrik-Thammavit"><img src="image/facebook2.png" alt="Facebook Logo" class="social-icon"></a>
     <p>&copy; 2016 Patrik Hogler.</p>
 </footer>
+<script type="text/javascript" src="js/expand.js"></script>
 </body>
 </html>
