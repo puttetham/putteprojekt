@@ -1,6 +1,7 @@
 <?php
    if (isset($_GET['page'])) {
    $p = $_GET['page'];
+
    switch ($p) {
 
     case 'home':
@@ -22,8 +23,7 @@
 } else {
     include ('pages/home.php');
 }
-
-   
-
 ?>
+
+
 
