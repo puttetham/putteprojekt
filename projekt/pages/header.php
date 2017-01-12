@@ -12,6 +12,10 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
   <script src="https://use.fontawesome.com/b0b6a4bf9b.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="content">
