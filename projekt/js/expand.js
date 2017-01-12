@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $("i").click(function(){
+        $(".hidden").toggle();
     });
 });
 
