@@ -219,6 +219,17 @@ i {
   margin: 0 auto;
   text-align: center;
 }
+/************* YOUTUBE ***************/
+
+#youtube {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 /************* FOOTER ***************/
 
@@ -267,7 +278,7 @@ footer {
   nav {
     flex-direction: column          /* nav goes to column on 480px */
   }
-  
+
   nav a {
     height: 40px;                   /* a links heights */
     line-height: 20px;
