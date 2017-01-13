@@ -10,6 +10,7 @@
 	<title>Patrik Hogler | Front End Developer</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/contactform.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
   <script src="https://use.fontawesome.com/b0b6a4bf9b.js"></script>
   <script
@@ -33,6 +34,3 @@
     <a href="index.php?page=contact">c o n t a c t .</a>
   </nav>
 </header>
-<div class="banner">
-    <img class="banner-img" src="image/road.jpg" alt="banner road photo">
-</div>

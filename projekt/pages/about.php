@@ -1,7 +1,9 @@
 <?php include('header.php'); ?>
 
 <!-- ############### SECTION ############### -->
-
+<br>
+<br>
+<br>
 <div class="wrapper">
   <section class="about">
     <h1>P A T R I K &nbsp;&nbsp;H O G L E R<br><br>
@@ -32,7 +34,6 @@
         <p>Position: Sales.</p>
         <p>Adress: Skärholmen Galleria, Bredholmsgatan 3, 127 48 Skärholmen, Sweden.</p>
       </div>
-
 
   </section>
 </div>
