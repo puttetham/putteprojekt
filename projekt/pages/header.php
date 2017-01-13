@@ -29,8 +29,8 @@
     </a>
   </div>
   <nav>
-    <a href="index.php?page=home" class="selected">h o m e .</a>
-    <a href="index.php?page=about">a b o u t&nbsp;&nbsp; m e .</a>
-    <a href="index.php?page=contact">c o n t a c t .</a>
+    <a href="index.php?page=home" class="selected">H O M E /</a>
+    <a href="index.php?page=about">A B O U T&nbsp;&nbsp; M E /</a>
+    <a href="index.php?page=contact">C O N T A C T /</a>
   </nav>
 </header>
