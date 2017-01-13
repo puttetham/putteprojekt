@@ -5,11 +5,11 @@ html {
 }
 
 * {
-  box-sizing: border-box;               
+  box-sizing: border-box;
 }
 
-body {                                   
-  margin: 0;  
+body {
+  margin: 0;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -24,16 +24,16 @@ body {
   width: 70px;
 }
 
-a {                                      
-  color: #000;                           
-  font-size: 0.85em;                     
+a {
+  color: #000;
+  font-size: 0.85em;
   text-decoration: none;
 }
 
 .wrapper {
   width: 65%;                       /* wrapper width */
   margin: 0 auto;                   /* auto on left n right to get it centered on page */
-}  
+}
 
 p {
   font-family: 'Raleway', sans-serif;
@@ -55,11 +55,11 @@ h3 {
 
 /************* HEADER  ***************/
 
-div#logo-container {                  
+div#logo-container {
   width: 140px;                     /* div logo container width */
 }
 
-div#logo-container img {            
+div#logo-container img {
   width: 100%;                      /* 100% width on logo inside the div*/
 }
 
@@ -85,7 +85,7 @@ nav a {
   font-family: "Raleway", serif;
   font-weight: bold;
   color: #000;
-  line-height: 40px; 
+  line-height: 40px;
   border-bottom: 1px solid #c8c8c8;
 }
 
@@ -93,8 +93,8 @@ nav a {
   color: #448aff;
 }
 
-nav a:hover {                          
-  transition: ease-in-out all .4s; 
+nav a:hover {
+  transition: ease-in-out all .4s;
     -moz-transition: ease-in-out all .7s;
     -webkit-transition: ease-in-out all .7s;
   color:#448aff;
@@ -144,7 +144,7 @@ i {
   cursor:pointer;
   text-align: center;
   margin: 0 auto;
-  
+
 }
 
 .jobedu {
@@ -195,8 +195,8 @@ i {
 /************* COUNTDOWN ***************/
 
 #countdown, #countdown1 {
-  font-size: 1.1em;
-  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
   width: 330px;
   padding: 5px 0;
   margin: 5px auto 0;
@@ -243,9 +243,9 @@ footer {
 /************* MEDIA QUERIES ***************/
 
 @media screen and (max-width: 768px) {
-  
+
   div#logo-container {              /* center the logo on the page from 768px */
-    margin: 0 auto;                   
+    margin: 0 auto;
     margin-bottom: 15px;
   }
 
@@ -263,11 +263,11 @@ footer {
 }
 
 
-
 @media screen and (max-width: 480px) {
   nav {
     flex-direction: column          /* nav goes to column on 480px */
   }
+  
   nav a {
     height: 40px;                   /* a links heights */
     line-height: 20px;

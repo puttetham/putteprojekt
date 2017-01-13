@@ -11,9 +11,9 @@
       <p>I'm using HTML, CSS, JavaScript and many other modern techniques.</p>
   	<div id="countposition">
        <span class="countdowntext">Time left to <strong>LIA</strong>:</span>
-       <div id="countdown1"></div>
+        <div data-countdown="2018/01/15" id="countdown1"></div>
        <span class="countdowntext">Time left to <strong>graduation</strong>:</span>
-       <div id="countdown"></div>
+       <div data-countdown="2018/05/31" id="countdown"></div>
     </div>
   </section>
 </div>
@@ -23,6 +23,7 @@
 
 <?php include('footer.php'); ?>
 
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="js/countdown.js"></script>
 </body>
 </html>

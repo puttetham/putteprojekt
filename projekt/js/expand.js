@@ -1,8 +1,12 @@
-$(document).ready(function(){
-    $("i").click(function(){
-        $(".hidden").toggle();
+$(document).ready(function () {
+    $('.hidden').hide();
+    $('i').click(function () {
+        // .parent() selects the A tag, .next() selects the P tag
+        $(this).parent().next().slideToggle(200);
     });
+    $('.hidden').slideUp(1000);
 });
+
 
 /*
 var hiddens = document.getElementsByClassName('hidden');

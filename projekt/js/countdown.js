@@ -1,3 +1,14 @@
+$(function(){
+   $('[data-countdown]').each(function() {
+      var $this = $(this), finalDate = $(this).data('countdown');
+      $this.countdown(finalDate, function(event) {
+         $this.html(event.strftime('%D days %HH %MM %SS'))}).on('finish.countdown', function() {
+            alert("Finish");
+          });
+     });
+ });
+
+/*
 function setTimer(elem_id, date, completeMsg) {
 // set the date we're counting down to
 var target_date = new Date(date).getTime();
@@ -31,3 +42,4 @@ setInterval(function () {
 }
 setTimer("countdown1","Jan 15, 2018", "I'm on LIA!");
 setTimer("countdown","May 31, 2018", "Graduated like a BOSS!");
+*/
