@@ -19,11 +19,12 @@ INSERT into contacts (id, name, email, tel, message)
 VALUES (NULL, '$name', '$email', '$tel', '$message')
 ";
 $sql = mysqli_query($conn, $sql_store) or die(mysql_error());
-header('Location: ?nav=messagesuccess');
+//header('Location: index.php');
+header("Refresh: 2; index.php");
+echo "<h2><br>Thank you! I will come back to you as soon as possible.</h2>";
 }
 } else {
-include ('pages/home.php');
-//echo "<h1><br>Thank you for contacting me, i will come back to you as soon as possible.</h1>";
+echo "<h1><br>Error, try again later!</h1>";
+//include ('pages/home.php');
 }
-
 ?>
