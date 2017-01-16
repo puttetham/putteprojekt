@@ -5,6 +5,7 @@
 <div class="wrapper">
   <section id="kontakt">
     <h3 id="git">GET IN TOUCH!</h3>
+
     <section class="contact-form"> <!-- start contact-form -->
       <form action="contacts.php" method="POST">
         <input name="name" id="name" type="text" class="input" placeholder="Name" required/>
@@ -14,6 +15,7 @@
         <input class="button" type="submit" value="SEND"/>
       </form>
     </section>
+    
     <p class="mailphone"><a href="mailto:patrikhogler@hotmail.com"><i class="fa fa-envelope mailphonelogo" aria-hidden="true"></i>patrikhogler@hotmail.com</a></p>
     <p class="mailphone"><a href="tel:076-5576319"><i class="fa fa-phone-square mailphonelogo" aria-hidden="true"></i>+(46)76-557 63 19</a></p>
     <br>
