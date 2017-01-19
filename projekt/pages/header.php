@@ -18,6 +18,7 @@
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/dynamicnav.js"></script>
 </head>
 <body>
 <div class="content">
@@ -29,8 +30,8 @@
       <img src="image/putte3.png" class="logoicon" alt="Patrik Hogler logo">
     </a>
   </div>
-  <nav>
-    <a href="index.php?page=home" class="selected">H O M E /</a>
+  <nav id="nav">
+    <a href="index.php?page=home">H O M E /</a>
     <a href="index.php?page=about">A B O U T&nbsp;&nbsp;M E /</a>
     <a href="index.php?page=portfolio">P O R T F O L I O /</a>
     <a href="index.php?page=contact">C O N T A C T /</a>
