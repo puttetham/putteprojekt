@@ -12,18 +12,19 @@
         include ('pages/about.php');
         break;
 
+    case 'portfolio':
+        include ('pages/portfolio.php');
+        break;
+
     case 'contact':
         include ('pages/contact.php');
         break;
 
     default:
         include ('pages/home.php');
-        break; 
+        break;
    }
 } else {
     include ('pages/home.php');
 }
 ?>
-
-
-
