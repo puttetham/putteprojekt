@@ -10,8 +10,6 @@
 	<title>Patrik Hogler | Front End Developer</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/contactform.css">
-  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
   <script src="https://use.fontawesome.com/b0b6a4bf9b.js"></script>
   <script

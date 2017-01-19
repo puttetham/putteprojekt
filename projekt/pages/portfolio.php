@@ -6,7 +6,7 @@
 		<li>
 			<a href="http://williamnystrom.se/geten">
 				<img src="image/geten.jpg" alt="img01"/>
-        <p class="jobedu">We build a simple Bed & Breakfast hotel site as a school project. In this project we used
+        <p class="jobedu">We built a simple Bed & Breakfast hotel site as a school project. In this project we used
         the languages HTML, CSS, JavaScript and PHP.</p>
 			</a>
 		</li>
