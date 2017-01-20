@@ -20,7 +20,9 @@
     </div> -->
   </section>
 </div>
-<iframe class="hangman"></iframe>
+
+<iframe class="hangman" src=""></iframe>
+
 <div class="videoWrapperOuter">
   <div class="videoWrapperInner">
     <iframe src="https://www.youtube.com/embed/uxBganA7KnY"
@@ -34,7 +36,6 @@
 <?php include('footer.php'); ?>
 <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="js/countdown.js"></script>
-<script type="text/javascript" src="js/hangman.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
