@@ -76,5 +76,6 @@
 <?php include('footer.php'); ?>
 <script type="text/javascript" src="js/expand.js"></script>
 <script type="text/javascript" src="js/hangman.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

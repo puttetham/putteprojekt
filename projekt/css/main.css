@@ -352,6 +352,20 @@ footer {
   margin: 0 5px;
 }
 
+/************* HANGMAN ***************/
+
+.hangman {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80vh;
+    height: 50vh;
+    background: #fff;
+    border: 2px solid #ccc;
+    display: none;
+    transform: translate(-50%, -50%)
+}
+
 /************* MEDIA QUERIES ***************/
 
 @media screen and (max-width: 768px) {
