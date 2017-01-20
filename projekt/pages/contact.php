@@ -15,7 +15,7 @@
         <input class="button" type="submit" value="SEND"/>
       </form>
     </section>
-    
+
     <p class="mailphone"><a href="mailto:patrikhogler@hotmail.com"><i class="fa fa-envelope mailphonelogo" aria-hidden="true"></i>patrikhogler@hotmail.com</a></p>
     <p class="mailphone"><a href="tel:076-5576319"><i class="fa fa-phone-square mailphonelogo" aria-hidden="true"></i>+(46)76-557 63 19</a></p>
     <br>
@@ -30,6 +30,8 @@
 
 <!-- ############### FOOTER ############### -->
 </div>
+
 <?php include('footer.php'); ?>
+<script type="text/javascript" src="js/hangman.js"></script>
 </body>
 </html>

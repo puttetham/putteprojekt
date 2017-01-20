@@ -74,7 +74,7 @@
 </div>
 
 <?php include('footer.php'); ?>
-
 <script type="text/javascript" src="js/expand.js"></script>
+<script type="text/javascript" src="js/hangman.js"></script>
 </body>
 </html>

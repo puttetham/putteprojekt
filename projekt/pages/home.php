@@ -32,8 +32,8 @@
 
 
 <?php include('footer.php'); ?>
-
 <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="js/countdown.js"></script>
+<script type="text/javascript" src="js/hangman.js"></script>
 </body>
 </html>
