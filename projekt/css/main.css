@@ -140,6 +140,10 @@ nav a:hover {
   text-align: center;
 }
 
+.databasetext {
+  line-height: 30px;
+}
+
 i {
   cursor:pointer;
   text-align: center;
