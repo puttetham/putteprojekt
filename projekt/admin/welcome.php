@@ -52,7 +52,7 @@ while ( $row = mysqli_fetch_array ($result) ) {
 
   <h2>Current job</h2>
   <form method="post">
-      <input name="page" type="hidden" value="about_me">
+      <input name="page" type="hidden" value="about_me1">
       <textarea  name="content" class="admin-textarea"><?php echo $text_array[1]; ?></textarea>
       <br>
       <input type="submit"></input>
