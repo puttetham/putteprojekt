@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 include('../includes/connect.php');
 
 $error=''; //Variable to Store error message;
@@ -14,13 +16,13 @@ else
 $username = mysqli_real_escape_string($conn, $_POST['username']);
 $password = mysqli_real_escape_string($conn, $_POST['password']);
 
-//Selecting Database
-$db = mysqli_select_db($conn, "www.patrikhogler.se");
+// //Selecting Database
+// $db = mysqli_select_db($conn, "www.patrikhogler.se");
 //sql query to fetch information of registerd user and finds user match.
 $query = mysqli_query($conn, "SELECT * FROM login WHERE password='$password' AND username='$username'");
 $rows = mysqli_num_rows($query);
 if($rows == 1){
-  header("Location: welcome.php"); // Redirecting to other page
+  header("Location: welcome.php"); // Redirecting to admin welcome site
 }
 else
 {
@@ -29,5 +31,4 @@ else
   mysqli_close($conn); // Closing connection
 }
 }
-
 ?>
