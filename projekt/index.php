@@ -1,4 +1,6 @@
+<?php include ('pages/header.php');?>
 <?php
+
    if (isset($_GET['page'])) {
    $p = $_GET['page'];
 
@@ -28,3 +30,4 @@
     include ('pages/home.php');
 }
 ?>
+<?php include('pages/footer.php'); ?>

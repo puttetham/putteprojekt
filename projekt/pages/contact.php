@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-
 <!-- ############### SECTION ############### -->
 
 <div class="wrapper">
@@ -28,10 +26,5 @@
   </section>
 </div>
 
-<!-- ############### FOOTER ############### -->
-</div>
 
-<?php include('footer.php'); ?>
 <script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>

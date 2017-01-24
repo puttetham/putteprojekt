@@ -1,3 +1,5 @@
+</body>
+</html>
 <footer>
     <a href="https://se.linkedin.com/in/patrik-hogler-1377b0129"><img src="image/linkedin2.png" alt="Linkedin Logo" class="social-icon"></a>
     <a href="https://www.instagram.com/puttetham/"><img src="image/instagram2.png" alt="Instagram Logo" class="social-icon"></a>

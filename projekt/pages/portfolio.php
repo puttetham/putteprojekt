@@ -1,5 +1,3 @@
-<?php include ('header.php'); ?>
-
 <div id="portfolio">
 	<ul class="portfolio-grid">
     <h3 id="git">My projects</h3>
@@ -31,7 +29,4 @@
   </ul>
 </div>
 
-<?php include('footer.php'); ?>
 <script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>

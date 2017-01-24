@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-
 <?php
 require_once 'includes/connect.php';
 
@@ -45,12 +43,7 @@ $content = mysqli_fetch_assoc($result);
   </div>
 </div>
 
-<!-- ############### FOOTER ############### -->
 
-
-<?php include('footer.php'); ?>
 <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="js/countdown.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
