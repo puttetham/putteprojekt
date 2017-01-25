@@ -1,35 +1,3 @@
-<?php
-include("login.php"); // Include loginserv for checking username and password
-?>
-
-<?php
-if ( isset($_POST['content']) ) {
-
-    $content = $_POST['content'];
-    $text = mysql_real_escape_string($content);
-    $page = $_POST['page'];
-
-    $query = "UPDATE text_table
-            SET text_content = '$text'
-            WHERE page = '$page'
-    ";
-    mysqli_query($conn, $query);
-}
-
-$text_array = array();
-
-$query = "SELECT text_content
-        FROM text_table
-";
-
-$result = mysqli_query($conn, $query);
-while ( $row = mysqli_fetch_array ($result) ) {
-    array_push($text_array, $row['text_content']);
-}
-
-
- ?>
-
 <!doctype html>
 <html>
 <head>

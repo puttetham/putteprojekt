@@ -1,24 +1,68 @@
-
 <?php
-include("login.php"); // Include loginserv for checking username and password
-?>
+session_start();
 
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Login</title>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-<link rel="stylesheet" href="admin.css">
-</head>
-<body>
-<div class="login">
-<h1>Login</h1>
-<form action="" method="post">
-  <input type="text" placeholder="Username" id="user" name="username"><br/><br/>
-  <input type="password" placeholder="Password" id="pass" name="password"><br/><br/>
-  <input type="submit" value="Login" name="submit">
-<!-- Error Message -->
-<span><?php echo $error; ?></span>
-</body>
-</html>
+// IF PASSWORD CORRECT SESSION TO TRUE
+if(isset($_POST['password'])) {
+if($_POST['password'] == 'patrik') {
+$_SESSION['admin'] = TRUE;
+}
+}
+// LOGOUT / DESTROY
+if(isset($_POST['logout'])) {
+unset($_SESSION['admin']);
+}
+
+// IF LOGGED IN RUN
+if(isset($_SESSION['admin'])) {
+require_once '../includes/connect.php';
+if ( isset($_POST['content']) ) {
+
+$content = $_POST['content'];
+$text = mysql_real_escape_string($content);
+$page = $_POST['page'];
+
+$query = "UPDATE text_table
+  SET text_content = '$text'
+  WHERE page = '$page'
+";
+mysqli_query($conn, $query);
+}
+
+//////////////////////////////////////
+//Print text from database in textareas
+$text_array = array();
+
+$query = "SELECT text_content
+FROM text_table
+";
+
+$result = mysqli_query($conn, $query);
+while ( $row = mysqli_fetch_array ($result) ) {
+array_push($text_array, $row['text_content']);
+}
+////////////////////////////////////
+
+if ( isset($_GET['page']) ) {
+$page = $_GET['page'];
+include ($page . '.php');
+}
+else {
+include 'welcome.php';
+}
+
+echo "
+<form method='post' action=''>
+<input type='submit' name='logout' value='Log out'>
+</form>
+";
+}
+else {
+echo "
+<form method='post' class='logout'>
+<input type='password' name='password'>
+<input type='submit' value='Logga in'>
+</form>
+";
+}
+
+?>
