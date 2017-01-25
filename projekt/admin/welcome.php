@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>ADMIN PAGE</title>
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-<link rel="stylesheet" href="admin.css">
+<link rel="stylesheet" href="admin.css"
 </head>
 <body>
   <h1>Welcome Patrik</h1>
