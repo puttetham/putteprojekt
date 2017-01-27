@@ -44,7 +44,7 @@ function processInput(character) {
   } else {
     //Decrease lives and display them
     lives--;
-    livesContainer.style.width = lives * 40 + "px";
+    livesContainer.style.width = lives * 70 + "px";
 
    //Check, if there are lives left
     if (lives == 0) {
@@ -96,7 +96,7 @@ function newWord() {
   finished = true,
   disableInput = false;
 
-  livesContainer.style.width = lives*40 +"px"
+  livesContainer.style.width = lives*70 +"px"
   wordContainer.innerHTML = "";
   document.getElementsByTagName("html")[0].className = "";
 
