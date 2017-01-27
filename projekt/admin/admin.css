@@ -1,19 +1,22 @@
-/*body {
+body {
   margin: auto;
   text-align: center;
 }
 
-.admin-textarea {
-    width: 50%;
+.admintxt {
+    width: 70%;
     height: 150px;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid;
-    background-color: #8ee7b4;
+    background-color: #CC4949;
+    font-size: 0.9em;
 }
 
 
 h1, h2 {
   font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 h2 {
@@ -34,6 +37,13 @@ input[type=password] {
     border-radius: 5px;
 }
 
+#logout {
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+}
 
 input[type=submit] {
     padding:5px 15px;
@@ -43,4 +53,4 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     font-family: 'Raleway', sans-serif;
-}*/
+}

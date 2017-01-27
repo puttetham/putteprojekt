@@ -1,4 +1,4 @@
-var words = ["ZLATAN", "KUNG", "JAVASCRIPT"],
+var words = ['ZLATAN', 'PATRIK', 'JAVASCRIPT', 'JQUERY', 'STOCKHOLM'],
 
   hit = false,
   i = 0,

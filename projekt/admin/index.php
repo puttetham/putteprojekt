@@ -52,7 +52,7 @@ include 'welcome.php';
 
 echo "
 <form method='post' action=''>
-<input type='submit' name='logout' value='Log out'>
+<input type='submit' name='logout' value='Log out' id='logout'>
 </form>
 ";
 }

@@ -10,7 +10,7 @@ $content = mysqli_fetch_assoc($result);
 
  ?>
 <div class="banner">
-    <img class="banner-img" src="image/road.jpg" alt="banner road photo">
+    <img class="banner-img" src="image/road2.jpg" alt="banner road photo">
 </div>
 <!-- ############### SECTION ############### -->
 
