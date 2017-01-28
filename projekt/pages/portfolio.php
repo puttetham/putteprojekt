@@ -1,6 +1,6 @@
 <div id="portfolio">
 	<ul class="portfolio-grid">
-    <h3 id="git">My projects</h3>
+    <h1 class="projects">PROJECTS!</h1>
 		<li>
 			<a href="http://williamnystrom.se/geten">
 				<img src="image/geten.jpg" alt="img01"/>

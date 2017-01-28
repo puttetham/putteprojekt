@@ -1,5 +1,3 @@
-<!-- ############### SECTION ############### -->
-<br>
 <br>
 <br>
 <div class="wrapper">

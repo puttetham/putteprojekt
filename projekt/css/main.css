@@ -186,9 +186,9 @@ i {
   margin: 0px 5px -15px -10px;
 }
 
-#git {
-  margin-top: 1.9em;
-  font-size: 1.5em;
+.git {
+  margin-top: 1.5em;
+  font-size: 1.6em;
 }
 
 .share-icon {
@@ -248,6 +248,16 @@ textarea {
 }
 
 /************* PORTFOLIO PAGE ***************/
+
+#portfolio {
+  margin: 0
+}
+
+.projects {
+  margin-top: 1.6em;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+}
 
 .portfolio-grid {
     list-style: none;
@@ -415,6 +425,11 @@ footer {
 
   .banner {
     display: none;
+  }
+
+  .mainheading {
+    margin-top: 2em;
+
   }
 
 }
