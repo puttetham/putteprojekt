@@ -4,7 +4,7 @@
   <section id="kontakt">
     <h3 id="git">GET IN TOUCH!</h3>
 
-    <section class="contact-form"> <!-- start contact-form -->
+    <section class="contact-form"> 
       <form action="contacts.php" method="POST">
         <input name="name" id="name" type="text" class="input" placeholder="Name" required/>
         <input name="email" id="email" type="email" class="input" placeholder="Email" required/>

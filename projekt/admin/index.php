@@ -7,7 +7,7 @@ if($_POST['password'] == 'patrik') {
 $_SESSION['admin'] = TRUE;
 }
 }
-// LOGOUT / DESTROY
+// LOGOUT
 if(isset($_POST['logout'])) {
 unset($_SESSION['admin']);
 }
@@ -18,7 +18,7 @@ require_once '../includes/connect.php';
 if ( isset($_POST['content']) ) {
 
 $content = $_POST['content'];
-$text = mysql_real_escape_string($content);
+$text = mysqli_real_escape_string($conn, $content);
 $page = $_POST['page'];
 
 $query = "UPDATE text_table
@@ -28,8 +28,7 @@ $query = "UPDATE text_table
 mysqli_query($conn, $query);
 }
 
-//////////////////////////////////////
-//Print text from database in textareas
+//PRINT TEXT IN TEXTAREAS
 $text_array = array();
 
 $query = "SELECT text_content
@@ -40,8 +39,8 @@ $result = mysqli_query($conn, $query);
 while ( $row = mysqli_fetch_array ($result) ) {
 array_push($text_array, $row['text_content']);
 }
-////////////////////////////////////
 
+// load site with textboxes on welcome.php
 if ( isset($_GET['page']) ) {
 $page = $_GET['page'];
 include ($page . '.php');
@@ -58,10 +57,12 @@ echo "
 }
 else {
 echo "
-<form method='post' class='logout'>
+
+<form method='post'>
 <input type='password' name='password'>
 <input type='submit' value='Logga in'>
 </form>
+</div>
 ";
 }
 

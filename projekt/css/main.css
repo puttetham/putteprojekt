@@ -413,4 +413,8 @@ footer {
     border-bottom: none;
   }
 
+  .banner {
+    display: none;
+  }
+
 }
