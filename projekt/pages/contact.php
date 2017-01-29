@@ -1,6 +1,6 @@
 <div class="wrapper">
   <section id="kontakt">
-    <h3 class="git">GET IN TOUCH!</h3>
+    <h1 class="git">GET IN TOUCH!</h1>
 
     <section class="contact-form">
       <form action="contacts.php" method="POST">

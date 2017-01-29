@@ -1,5 +1,5 @@
 <?php
-require_once 'includes/connect.php';
+require_once 'includes/connect.php'; 
 
 $query = "SELECT text_content
         FROM text_table

@@ -4,7 +4,7 @@ body {
 }
 
 .admintxt {
-    width: 70%;
+    width: 75%;
     height: 150px;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid;
@@ -53,4 +53,14 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     font-family: 'Raleway', sans-serif;
+}
+
+#login {
+  margin: 0;
+  padding-top: 30px;
+}
+
+#password {
+
+  height: 2em;
 }

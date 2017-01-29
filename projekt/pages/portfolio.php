@@ -2,7 +2,7 @@
 	<ul class="portfolio-grid">
     <h1 class="projects">PROJECTS!</h1>
 		<li>
-			<a href="http://williamnystrom.se/geten">
+			<a href="http://williamnystrom.se/geten" a target="_blank">
 				<img src="image/geten.jpg" alt="img01"/>
         <p class="jobedu">We built a simple Bed & Breakfast hotel site as a school project. In this project we used
         the languages HTML, CSS, JavaScript and PHP.</p>

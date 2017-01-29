@@ -1,8 +1,8 @@
 <?php
-  include ('pages/header.php');
+  include ('pages/header.php'); // INCLUDE HEADER FILE ON ALL PAGES
 
-   if (isset($_GET['page'])) {
-     $p = $_GET['page'];
+  if (isset($_GET['page'])) {
+    $p = $_GET['page'];
 
      switch ($p) {
 
@@ -30,5 +30,5 @@
     include ('pages/home.php');
 }
 
-include('pages/footer.php');
+include('pages/footer.php'); //INCLUDE FOOTER FILE ON ALL PAGES
 ?>

@@ -3,6 +3,7 @@ html{
 }
 #word{
   font-size:50px;
+  font-family: 'Raleway', sans-serif;
   margin-bottom:100px;
 }
 #word span{
@@ -16,14 +17,14 @@ html{
 #lives{
   height:70px;
   margin:20px 0;
-  background-image: url("kurt.jpg");
+  background-image: url("putte2.jpg");
   background-size:auto 100%;
 }
 #buttons button{
   font-size:40px;
-  border:1px solid #A3A122;
-  background-color:#D5D344;
-  box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
+  font-family: 'Raleway', sans-serif;
+  border:1px solid #c8c8c8;
+  background-color: #CC4949;
   border-radius:5%;
   height:50px;
   width:70px;
@@ -33,7 +34,6 @@ html{
   color:mistyrose;
 }
 #buttons button:hover{
-  /*box-shadow:0 1px 5px 0 rgba(0,0,0,0.4);*/
   background-color:mistyrose;
   color:#D5D344;
 
@@ -48,7 +48,7 @@ html{
   cursor:default;
 }
 button#next{
-  font-size:80px;
+  font-size:70px;
   border:1px solid #1B5C75;
   background-color:#2D90B7;
   box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);

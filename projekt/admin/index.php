@@ -1,15 +1,15 @@
 <?php
 session_start();
-
+include ('login.php');
 // IF PASSWORD CORRECT SESSION TO TRUE
 if(isset($_POST['password'])) {
-if($_POST['password'] == 'patrik') {
+if($_POST['password'] == 'patriK') {
 $_SESSION['admin'] = TRUE;
 }
 }
 // LOGOUT
 if(isset($_POST['logout'])) {
-unset($_SESSION['admin']);
+  unset($_SESSION['admin']);
 }
 
 // IF LOGGED IN RUN
@@ -58,9 +58,9 @@ echo "
 else {
 echo "
 
-<form method='post'>
-<input type='password' name='password'>
-<input type='submit' value='Logga in'>
+<form method='post' id='login'>
+<input type='password' name='password' id='password'>
+<input type='submit' value='Logga in' id='loggain'>
 </form>
 </div>
 ";
