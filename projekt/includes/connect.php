@@ -7,7 +7,7 @@
 $conn = mysqli_connect('localhost', 'root', '', 'www.patrikhogler.se');
 
 // SETS THE CLIENT CHARACTER SET
-mysqli_set_charset ($conn , "utf8" );
+mysqli_query($db, "SET NAMES utf8");
 
 // RETURNS THE TEXT OF THE ERROR MESSAGE FROM MySQL OPERATION
 if (!$conn) {

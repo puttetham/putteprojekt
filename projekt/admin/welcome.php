@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="admin.css"
 </head>
 <body>
-  <h1>Hello!</h1>
+  <h1>Admin site!</h1>
   <br>
   <h2>Home</h2>
   <form method="post">
