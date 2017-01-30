@@ -1,5 +1,4 @@
 <?php
-
 include('includes/connect.php');
 
 //DEFINA IF VARIABLE IS SET

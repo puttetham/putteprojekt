@@ -1,3 +1,5 @@
+// NEW COUNTDOWN ON JQUERY, NEED TO DECOMMENT ON HOMEPAGE IF USE
+
 $(function(){
    $('[data-countdown]').each(function() {
       var $this = $(this), finalDate = $(this).data('countdown');
@@ -7,6 +9,9 @@ $(function(){
           });
      });
  });
+
+
+// OLD COUNTDOWN TIMER IN PURE JS
 
 /*
 function setTimer(elem_id, date, completeMsg) {

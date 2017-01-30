@@ -302,9 +302,9 @@ textarea {
   border-radius: 2px;
   border: 1px solid #c8c8c8;
   color: #000;
-  background: #ECE9E6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
 }
 
 .countdowntext {
@@ -318,6 +318,7 @@ textarea {
   margin: 0 auto;
   text-align: center;
 }
+
 /************* YOUTUBE ***************/
 
 .videoWrapperOuter {
@@ -429,7 +430,6 @@ footer {
 
   .mainheading {
     margin-top: 2em;
-
   }
 
 }

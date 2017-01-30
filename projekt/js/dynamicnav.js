@@ -1,3 +1,5 @@
+// NAVIGATION ACTIVE HIGHLIGHT
+
 $(document).ready(function($){
 var path = window.location.search;
 

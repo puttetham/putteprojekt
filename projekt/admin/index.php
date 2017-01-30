@@ -61,7 +61,7 @@
 
         else {
 
-        ///// ON LOGOUT ONL Y SHOW LOGIN
+        ///// ON LOGOUT ONLY SHOW LOGIN
         echo "
         <form method='post' id='login'>
         <input type='password' name='password' id='password'>

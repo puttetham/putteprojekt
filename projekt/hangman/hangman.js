@@ -11,48 +11,46 @@ var words = ['ZLATAN', 'PATRIK', 'JAVASCRIPT', 'JQUERY', 'STOCKHOLM'],
   wordContainer = document.getElementById('word'),
   nextButton = document.getElementById('next');
 
+//REVEAL THE MISSING CHARACTERS OF THE WORD
 function gameOver() {
-  //Reveal the missing characters of the word
   for (i = 0; i < length; i++) {
     if (letterSpan[i].innerHTML == "_") {
       letterSpan[i].innerHTML = word[i];
       letterSpan[i].className = "missing";
     }
   }
-
   disableInput = true
   document.getElementsByTagName("html")[0].className = "gameOver";
 }
 
+//LOOP THROUHG THE WORD ARRAY AND CHECK, IF THE GIVEN CHARACTER MACTHES
 function processInput(character) {
-  //Loop through the word-array and check, if the given character matches
   for (i = 0; i < length; i++) {
     if (word[i] == character) {
       letterSpan[i].innerHTML = character;
       hit = true;
     }
-    //Check if there is any character left, that hasn't been guessed yet
+    //CHECK IF THERE IS ANY CHARACTER LEFT, THAT HASENT BEEN GUSSED YET
     if(letterSpan[i].innerHTML == "_"){
       finished = false;
     }
   }
-
-  //After the for-loop is finished, check if there was a hit
+  //AFTER THE FOR LOOP IS FINISHED, CHECK IF THERE WAS A HIT
   if (hit === true) {
-    //Set hit back to false
+    //SET HIT BACK TO FALSE
     hit = false;
   } else {
-    //Decrease lives and display them
+    //DECREASE LIVES AND DISPLAY THEM
     lives--;
     livesContainer.style.width = lives * 70 + "px";
 
-   //Check, if there are lives left
+   //CHECK, IF THERE ARE LIVES YET
     if (lives == 0) {
       gameOver();
     }
   }
 
-  //After the for-loop is finished, check if every character is already guessed
+  //AFTER THE FOR LOOP IS FINISHED, CHECK IF EVERY CHARATCHER IS FINISHED
   if(finished === true){
     document.getElementsByTagName("html")[0].className = "finished";
     disableInput = true;
@@ -65,11 +63,11 @@ function echoButtons() {
   i = 0;
 
   for (var letter = charCodeA; letter <= charCodeZ; letter++) {
-    //Create a button for every character of the alphabet
+    //CREATE A BUTTON FOR EVERY CHARACTER OF THE ALPHABET
     buttons[i] = document.createElement("button");
     buttons[i].innerHTML = String.fromCharCode(letter);
 
-    //Create a EventListener for every button
+    //CREATE EVENTLISTENER FOR BUTTONS
     buttons[i].addEventListener("click", function() {
       if(disableInput === false){
         if (this.className.indexOf("disabled") == -1) {
@@ -79,13 +77,12 @@ function echoButtons() {
       }
     });
 
-    //Insert every button into the buttonContainer
+    //INSERT EVERY BUTTON INTO THE BUTTON CONTAINER
     buttonContainer.appendChild(buttons[i]);
     i++;
   }
 }
-
-//Get new random word and set back various stuff
+//GET NEW RANDOM WORD AND SET BACK VARIOUS STUFF
 function newWord() {
   selected = Math.floor(Math.random() * words.length);
   word = words[selected].split('');
@@ -100,12 +97,12 @@ function newWord() {
   wordContainer.innerHTML = "";
   document.getElementsByTagName("html")[0].className = "";
 
-  //Remove the disabled-class from all buttons
+  //REMOVE THE DISABLED CLASS FROM ALL BUTTONS
   for(i = 0; i <= 25; i++){
     buttons[i].className = "";
   }
 
-  //Create a <span> for each character of the word and fill it with _
+  //CREATE A SPAN FOR EACH CHARACTER OF THE WORD AND FILL IT WITH _
   for (i = 0; i < length; i++) {
     letterSpan[i] = document.createElement("span");
     letterSpan[i].innerHTML = "_";

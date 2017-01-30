@@ -1,3 +1,5 @@
+// EXPAND EXPERIENCE ON ABOUT PAGE
+
 $(document).ready(function () {
     $('.hidden').hide();
     $('i').click(function () {
