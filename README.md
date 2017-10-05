@@ -1,5 +1,6 @@
 # putteprojekt
 
+HTML,CSS,Javascript, jquery, PHP (mysqli)
 
 REALESE 1
 
